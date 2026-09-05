@@ -87,3 +87,16 @@
 2026-09-05 14:53:00 | network-check.sh | FAILED - invalid port '99999'
 2026-09-05 14:53:00 | network-check.sh | OK - resolved 'localhost' -> ::1
 2026-09-05 14:53:00 | network-check.sh | OK - ping to 'localhost' succeeded
+2026-09-05 15:16:43 | system-info.sh | system-info.sh started
+2026-09-05 15:16:43 | system-info.sh | system-info.sh completed successfully
+2026-09-05 15:16:43 | disk-check.sh | FAILED - missing threshold argument
+2026-09-05 15:16:43 | disk-check.sh | FAILED - non-integer threshold 'abc'
+2026-09-05 15:16:43 | disk-check.sh | FAILED - threshold out of range '0'
+2026-09-05 15:16:43 | disk-check.sh | FAILED - threshold out of range '101'
+2026-09-05 15:16:44 | disk-check.sh | OK - / usage 1% < threshold 100%
+2026-09-05 15:16:44 | disk-check.sh | WARNING - / usage 1% >= threshold 1%
+2026-09-05 15:16:44 | network-check.sh | FAILED - missing host argument
+2026-09-05 15:16:44 | network-check.sh | FAILED - invalid host format 'bad host!!'
+2026-09-05 15:16:44 | network-check.sh | FAILED - invalid port '99999'
+2026-09-05 15:16:44 | network-check.sh | OK - resolved 'localhost' -> ::1
+2026-09-05 15:16:44 | network-check.sh | OK - ping to 'localhost' succeeded
